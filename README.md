@@ -3,10 +3,13 @@
 Find and kill git worktrees from a tiny interactive TUI. Inspired by [npkill](https://github.com/voidcosmos/npkill).
 
 ```
-$ npx github:gareys/wtkill
+$ npx wtkill
 ```
 
 Zero runtime dependencies. Pure Node ESM. Requires Node 18+.
+
+[![npm](https://img.shields.io/npm/v/wtkill.svg)](https://www.npmjs.com/package/wtkill)
+[![license](https://img.shields.io/npm/l/wtkill.svg)](./LICENSE)
 
 ## Why
 
@@ -17,19 +20,24 @@ you pick what to kill — like `npkill`, but for worktrees.
 
 ## Install
 
-You don't need to install — `npx` will fetch and run from GitHub:
+You don't need to install — just `npx`:
 
 ```bash
-npx github:gareys/wtkill          # in any git repo
-npx github:gareys/wtkill -g       # global scan from $HOME
+npx wtkill            # in any git repo
+npx wtkill -g         # global scan from $HOME
 ```
 
-If you'd rather have it on your `PATH`:
+Or install globally:
 
 ```bash
-git clone https://github.com/gareys/wtkill.git
-cd wtkill
-npm link              # exposes `wtkill` globally
+npm i -g wtkill
+wtkill --help
+```
+
+You can also run it straight from GitHub without npm registry:
+
+```bash
+npx github:gareys/wtkill
 ```
 
 ## Usage
