@@ -1,6 +1,6 @@
 {
   "name": "wtkill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find and kill git worktrees from a tiny interactive TUI. Inspired by npkill.",
   "keywords": [
     "git",
