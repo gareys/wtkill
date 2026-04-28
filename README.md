@@ -34,12 +34,6 @@ npm i -g wtkill
 wtkill --help
 ```
 
-You can also run it straight from GitHub without npm registry:
-
-```bash
-npx github:gareys/wtkill
-```
-
 ## Usage
 
 ```bash
