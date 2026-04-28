@@ -1,0 +1,40 @@
+{
+  "name": "wtkill",
+  "version": "0.1.0",
+  "description": "Find and kill git worktrees from a tiny interactive TUI. Inspired by npkill.",
+  "keywords": [
+    "git",
+    "worktree",
+    "git-worktree",
+    "cli",
+    "tui",
+    "cleanup",
+    "npkill"
+  ],
+  "homepage": "https://github.com/gareys/wtkill#readme",
+  "bugs": {
+    "url": "https://github.com/gareys/wtkill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gareys/wtkill.git"
+  },
+  "author": "gareys",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "wtkill": "bin/wtkill.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/wtkill.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
